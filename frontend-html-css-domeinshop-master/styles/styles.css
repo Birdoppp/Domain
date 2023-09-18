@@ -20,6 +20,9 @@ Table of Contents:
     padding: 0;
 
 }
+main {max-width:1000px;
+        margin:0 auto;
+}
 
 
 /*////////////////////////
@@ -84,7 +87,9 @@ header p {
     font-size: 20px;
     margin: 2% 0;
 }
-
+article {box-shadow: 5px 5px 15px 5px #899CA0;
+        border-radius: 20px;
+}
 h2 {
    text-align: center;
     margin: 4% 0 4% 0;
@@ -112,9 +117,7 @@ main p {
     margin: 2% auto;
 }
 /*///////////////////uitklap vragen///////////////////*/
-
-.container { margin: 0 0 0 380px;
-}
+ /
 
 /*///////////// 3.2 Testimonial /////////////*/
 
@@ -125,15 +128,24 @@ main p {
 /*///////////// 3.4 Faq /////////////*/
 
 
-.uitklapmenu summary { margin: 20px 0 0 380px;
+.uitklapmenu summary { margin: 20px 0 0 20px;
 }
 
-.uitklapmenu .content { margin: 0 0 0 380px; color: #1C2B32
+
+
+
+.content  { margin: 0 0 0 20px;
+            color: #1C2B32;
+            background-color: #899CA0;
+            border-radius: 20px;
+            text-align: center;
 }
 
 
 
 /*///////////// 3.5 Footer /////////////*/
-.copyright  {
-
+.copyright  {   color: white;
+                background-color: #1C2B32;
+                text-align: center;
+                padding: 30px;
 }
